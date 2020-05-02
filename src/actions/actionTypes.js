@@ -1,5 +1,0 @@
-const UPDATE_COUNTER_AMOUNT = "UPDATE_COUNTER_AMOUNT";
-
-export default {
-  UPDATE_COUNTER_AMOUNT,
-};

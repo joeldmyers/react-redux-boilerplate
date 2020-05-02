@@ -1,10 +1,11 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import updateCounterAmount from "../../actions/counterActions";
+import { updateCounterAmount } from "../../actions/counterActions";
 
 const Counter = () => {
   const count = useSelector((state) => state.counterCount);
   const dispatch = useDispatch();
+  console.log(updateCounterAmount);
 
   return (
     <div className="App">
