@@ -12,8 +12,8 @@ Below are some notes on setup details.
 
 ### Key features:
 
-- React / React-DOM
-- Redux
+- React / React-DOM (using only functional components + Hooks)
+- Redux (leveraging new Redux hooks)
 - Webpack
 - Babel
 - node-sass
