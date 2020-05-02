@@ -1,8 +1,8 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { updateCounterAmount } from "../../actions/counterAction";
+import updateCounterAmount from "../../actions/counterActions";
 
-export default Counter = () => {
+const Counter = () => {
   const count = useSelector((state) => state.counterCount);
   const dispatch = useDispatch();
 
@@ -19,3 +19,5 @@ export default Counter = () => {
     </div>
   );
 };
+
+export default Counter;

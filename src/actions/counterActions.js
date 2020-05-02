@@ -1,5 +1,5 @@
 const updateCounterAmount = (incrementAmount) => ({
-  type: UPDATE_COUNTER_AMOUNT,
+  type: "UPDATE_COUNTER_AMOUNT",
   payload: {
     incrementAmount,
   },
