@@ -24,8 +24,10 @@ Babel obviously transpiles ES6 code etc. Specifically, `@babel/core` is the main
 
 #### Notes on Webpack
 
-Webpack does the work of bundling, code-splitting, tree-shaking, etc. To set up, we use `webpack`, `webpack-cli`, `webpack-dev-server`
+Webpack does the work of bundling, code-splitting, tree-shaking, etc. To set up, we use `webpack`, `webpack-cli`, `webpack-dev-server`, `style-loader`, `node-sass`, `sass`, `sass-loader`, `babel-loader`, and
 
 ## Getting started
 
 Using node v12.16.2 (npm v6.14.4), type `npm install`.
+
+To run dev server type `npm start`.
