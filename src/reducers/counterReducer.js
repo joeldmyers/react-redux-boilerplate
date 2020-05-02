@@ -1,12 +1,12 @@
 const initialState = {
-  counterCount: 0,
+  count: 0,
 };
 
 export default function (state = initialState, action) {
   switch (action.type) {
     case "UPDATE_COUNTER_AMOUNT":
       const { incrementAmount } = action.payload;
-      return { ...state, number: state.counterCount + incrementAmount };
+      return { ...state, number: state.count + incrementAmount };
 
     default:
       return state;

@@ -3,9 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateCounterAmount } from "../../actions/counterActions";
 
 const Counter = () => {
-  const count = useSelector((state) => state.counterCount);
+  const count = useSelector((state) => state.counter.count);
+  console.log("count", count);
   const dispatch = useDispatch();
-  console.log(updateCounterAmount);
 
   return (
     <div className="App">
