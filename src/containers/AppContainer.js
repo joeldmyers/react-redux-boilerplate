@@ -1,17 +1,14 @@
 import React from "react";
-import Counter from "../components/Counter/Counter";
+import Counter from "./Counter/Counter";
 import "./App.scss";
-
-// import { createStore } from "redux";
-// import { Provider } from "react-redux";
-// import mainReducer from "../reducers";
-// const store = createStore(mainReducer);
+import { Provider } from "react-redux";
+import store from "../store";
 
 const App = () => {
   return (
-    // <Provider store={store}>
-    <Counter />
-    // </Provider>
+    <Provider store={store}>
+      <Counter />
+    </Provider>
   );
 };
 
