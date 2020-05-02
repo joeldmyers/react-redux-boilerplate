@@ -3,10 +3,14 @@ const initialState = {
 };
 
 export default function (state = initialState, action) {
+  console.log("hitting reducer", state, action);
   switch (action.type) {
     case "UPDATE_COUNTER_AMOUNT":
       const { incrementAmount } = action.payload;
-      return { ...state, number: state.count + incrementAmount };
+      return {
+        ...state,
+        count: state.count + incrementAmount,
+      };
 
     default:
       return state;

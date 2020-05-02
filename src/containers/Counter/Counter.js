@@ -4,7 +4,6 @@ import { updateCounterAmount } from "../../actions/counterActions";
 
 const Counter = () => {
   const count = useSelector((state) => state.counter.count);
-  console.log("count", count);
   const dispatch = useDispatch();
 
   return (
